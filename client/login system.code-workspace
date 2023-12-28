@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "log-system/client"
+		},
+		{
+			"path": "log-system/server"
+		}
+	]
+}

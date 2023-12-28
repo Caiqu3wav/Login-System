@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(orange, aliceblue);
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    height: 80%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(white, rgba(128, 179, 224, 0.267));
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 10px rgb(19, 17, 17, 0.7); 
+}
+
+.form-field{
+    display: inline-block;
+}
+
+.form-error{
+    display: block;
+}
+
+button{
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: 22%;
+    text-align: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+@media screen and (max-width: 518px) {
+    .container{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 326px) {
+    .container{
+        width: 240px;
+    }
+}
